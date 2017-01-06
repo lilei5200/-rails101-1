@@ -70,9 +70,9 @@ end
            redirect_to group_path(group_path(@group))
          end
 
-
-
     private
+
+    
     def find_group_and_check_permission
       @group = Group.find(params[:id])
 
